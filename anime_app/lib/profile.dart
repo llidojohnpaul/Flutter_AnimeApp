@@ -35,7 +35,7 @@ class _ProfileState extends State<Profile> {
 
   submit() async {
     final response =
-        await http.post("http://192.168.43.68/barter/Profile.php", body: {
+        await http.post("http://192.168.1.10/animeapp/Profile.php", body: {
       'productname': email,
       'productdesc': password,
       'tradedesc': name,
